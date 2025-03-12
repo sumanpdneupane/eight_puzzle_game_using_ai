@@ -29,9 +29,9 @@ Before diving into search algorithms, it was crucial to define a proper state re
 - The blank tile (0) moves **UP, DOWN, LEFT, or RIGHT** to swap places with an adjacent tile.
 - Each move results in a new valid state.
 
-✅ **Cost Function (for A* and BFS):**
+✅ **Cost Function (for BFS, DFS, GBFS and A*):**
 - The cost to reach a state (**g(n)**) is typically the number of moves taken from the initial state.
-- **BFS** considers equal cost for all moves, while **A*** computes an estimated cost using heuristics.
+- **BFS and DFS** considers equal cost for all moves, while **GBFS and A*** computes an estimated cost using heuristics.
 
 ✅ **State Uniqueness (Hashable Representation):**
 - To avoid revisiting duplicate states, we store each state as a **tuple of tuples** (immutable data structure).
