@@ -86,7 +86,7 @@ This allowed **A*** to find the **optimal path efficiently**.
 
 ---
 
-## 🔹 Step 3: Choosing the Right Heuristic
+## 🔹 Step 3: Choosing the Right Heuristic h(n)
 
 To make the search smarter, I tested different heuristics:
 
